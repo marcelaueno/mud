@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUD - Diseño y Desarrollo Web</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <!--
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>-->
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/ekko-lightbox.css?ver=1.2.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.2.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+  </head>
+  <body id="top">
+    <header class="d-flex flex-column">
+      <div class="container pt-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent px-0 iconDev" style="color: deepskyblue;"><a class="text-white navbar-brand" href="#">🌵</a>
+          <button class="navbar-toggler fondoSalmon" type="button" data-toggle="collapse" data-target="#da-navbarNav" aria-controls="da-navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse text-uppercase" id="da-navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#projects">Acerca de mi</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Skills</a></li>
+
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#gallery">Porfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="da-home-page-text flex-grow-1 d-flex align-items-center" data-aos="fade-right" data-aos-duration="1000">
+        <div class="container">
+          <div class="col-md-10 col-sm-12 px-0 mx-0" id="textoOscuro">
+            <h2 class="display-3 text-uppercase">MUD</h2>
+            <h3 class="h4 mt-3"><span  style="color: lightsalmon;">❤️</span> Diseño Gráfico <span  style="color: lightsalmon;">❤️</span> Front-end <span  style="color: lightsalmon;">❤️</span> UX UI</h3><a class="smooth-scroll btn btn-outline-light mt-4 botonSalmon" href="#services">   lo que hago   </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<!--<div class="da-section da-work bg-secondary" id="learn">
+  <div class="container">
+    <div class="h3 pb-3 text-center text-white" data-aos="fade-up">Why Work With Us?</div>
+    <p class="px-5 pb-5 text-center text-white" data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-3" data-aos="flip-left">
+          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-briefcase fa-3x"></i>
+            <div class="h4 pb-3">Experience</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" data-aos="zoom-in-up">
+          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-sliders-h fa-3x"></i>
+            <div class="h4 pb-3">Flexibility</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" data-aos="flip-right">
+          <div class="card-body mt-4 mb-1 text-center"><i class="pb-3 text-primary fas fa-trophy fa-3x"></i>
+            <div class="h4 pb-3">Results</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, nullam tempor malesuada laoreet tempus blandit pretium etc.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<div class="da-section fondoFuerte"  id="projects">
+  <!--<div class="container">
+    <div class="h3 text-center" data-aos="fade-up">Acerca de mi</div>
+  </div>-->
+  <div class="da-team carousel slide py-5" id="da-carouselIndicator" data-ride="carousel" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div class="container">
+      <!--<ol class="carousel-indicators">
+        <li class="active" data-target="#da-carouselIndicator" data-slide-to="0"></li>
+        <li data-target="#da-carouselIndicator" data-slide-to="1"></li>
+      </ol>-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row ">
+          <!--  <div class="col-md-3">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/yo03.jpg" alt="image"/>
+                <div class="card-body text-center">
+                  <div class="h5">Pamela Lopez</div>
+                  <p class="text-muted">CEO</p>
+                </div>
+              </div>
+            </div>-->
+            
+            <div class="col-md-12 ">
+              <div class="card d-block mb-12 cardSinBorde"><!--<img class="card-img-top" src="images/da-emp-2.jpg" alt="image"/>-->
+                <div class="card-body text-center fondoFuerte text-white " id="acercaDe">
+                  <div class="h3 bold"><i class="fas fa-quote-left"></i> Hola! Soy Marcela Ueno<br>Diseñadora gráfica y desarrolladora web. Trabaje muchos años con gente de sistemas. <br>Mi curiosidad hizo que descubra mi rumbo, me dedique al frontend. <br>Desde hace unos años estoy incursionando en Experiencia de Usuario (UX-UI), JS, ReactJS y Firebase. <br>Sigo aprendiendo nuevas tecnologías, manteniendome al día constantemente en esto que me encanta.<i class="fas fa-quote-right"></i></div>
+                  <!--<p class="text-muted">Diseñadora gráfica y desarrolladora web. Trabaje muchos años con gente de sistemas, mi curiosidad hizo que descubra mi rumbo, me dedique al frontend. <br>Desde hace unos años estoy incursionando en Experiencia de Usuario (UX-UI), JS, ReactJS y Firebase. <br>Sigo aprendiendo nuevas tecnologias, poniendome al día constantemente en esto que me encanta.<i class="fas fa-quote-right"></i>
+                    <ul id="linkSeguido">
+                      <li class="mb-1"><a class="da-social-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="ml-2">Twitter</span></a></li>
+                      <li class="mb-1"><a class="da-social-link" href="https://www.linkedin.com/in/marcela-ueno-281b8614/" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="ml-2">Linkedin</span></a></li>
+                      <li class="mb-1"><a class="da-social-link" href="https://github.com/marcelaueno"  target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span class="ml-2">Github</span></a></li>
+                      <li class="mb-1"><a class="da-social-link" href="https://www.behance.net/marcelaueno"  target="_blank"><i class="fab fa-behance" aria-hidden="true"></i><span class="ml-2">Behance</span></a></li>
+                    </ul>
+                  </p>-->
+                </div>
+              </div>
+            </div>
+            <!--
+            <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/da-emp-3.jpg" alt="image"/>
+                <div class="card-body text-center">
+                  <div class="h5">Mark Shaw</div>
+                  <p class="text-muted">Software Developer</p>
+                </div>
+              </div>
+            </div>
+-->
+          </div>
+        </div>
+        <!--
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/da-emp-4.jpg" alt="image"/>
+                <div class="card-body text-center">
+                  <div class="h5">Melissa Long</div>
+                  <p class="text-muted">Software Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/da-emp-5.jpg" alt="image"/>
+                <div class="card-body text-center">
+                  <div class="h5">Betty West</div>
+                  <p class="text-muted">Software Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card d-block mb-3"><img class="card-img-top" src="images/da-emp-6.jpg" alt="image"/>
+                <div class="card-body text-center">
+                  <div class="h5">Jeremy Little</div>
+                  <p class="text-muted">Software Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="da-section bg-light" id="services">
+  <div class="da-services">
+    <div class="container text-center">
+      <div class="h3 pb-5 text-center" data-aos="fade-up">Skills</div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-3 altura">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="500">
+              <div class="text-primary" id="colorMud"><i class="pb-3 fas fa-pencil-alt fa-3x"></i>
+                <p class="font-weight-bold">Diseño Gráfico</p>
+              </div>
+              <p>Diseño visual de marca<br><br></p>
+              <p><i class="devicon-photoshop-plain colored iconDev"></i>
+                <i class="devicon-illustrator-plain colored iconDev"></i></p>              
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-3 altura">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="text-primary" id="colorMud"><i class="pb-3 fas fa-code fa-3x"></i><!--<i class="fas fa-laptop-code"></i><i class="fas fa-file-code"></i>-->
+                <p class="font-weight-bold">Diseño web Frontend</p>
+              </div>
+              <p>Desarrollo de aplicaciones y sitios responsivos</p>
+              <p><i class="devicon-html5-plain colored iconDev"></i>
+                <i class="devicon-css3-plain colored iconDev"></i>
+                <i class="devicon-javascript-plain colored iconDev"></i>
+                <i class="devicon-react-original colored iconDev"></i>
+                <i class="devicon-bootstrap-plain colored iconDev"></i>
+                <i class="devicon-sass-original colored iconDev"></i>
+                <i class="devicon-less-plain-wordmark colored iconDev"></i>
+                <i class="devicon-git-plain colored iconDev"></i>
+                <i class="devicon-github-original colored iconDev"></i>
+                <i class="devicon-firebase-plain colored iconDev"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-3 altura">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="1500">
+              <div class="text-primary" id="colorMud"><i class="pb-3 fas fa-sitemap fa-3x"></i><!--<i class="fas fa-crosshairs"></i><i class="fas fa-bullseye"></i>-->
+                <p class="font-weight-bold">UX UI</p>
+                
+              </div>
+              <p>Estrategia y diseño para una mejor experiencia de usuario</p>
+              <p><i class="devicon-figma-plain colored iconDev"></i>
+                <i class="devicon-behance-plain colored iconDev"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-3 altura">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="2000">
+              <div class="text-primary" id="colorMud"><!--<i class="pb-3 fas fa-headset fa-3x"></i><i class="fal fa-lightbulb-on"></i>--><i class="pb-3 fas fa-bullhorn fa-3x"></i><!--<i class="fas fa-hashtag"></i>-->
+                <p class="font-weight-bold">Maketing digital</p>
+              </div>
+              <p>Diseño y manejo de canales digitales</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+<!--
+      <br><br>
+      <div class="h3 pb-5 text-center" data-aos="fade-up">Herramientas</div>
+      <div class="row">
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="500">
+              <div class="text-primary" id="colorMud"><i class="devicon-html5-plain colored iconDev"></i>
+                <p class="font-weight-bold">HTML</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="1000">
+              <div class="text-primary" id="colorMud"><i class="devicon-css3-plain colored iconDev"></i>
+                <p class="font-weight-bold">CSS 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="1500">
+              <div class="text-primary" id="colorMud"><i class="devicon-javascript-plain colored iconDev"></i>
+                <p class="font-weight-bold">JavaScript</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="2000">
+              <div class="text-primary" id="colorMud"><i class="devicon-react-original colored iconDev"></i>
+                <p class="font-weight-bold">React</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="4000">
+              <div class="text-primary" id="colorMud"><i class="devicon-firebase-plain colored iconDev"></i>
+                <p class="font-weight-bold">Firebase</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="8000">
+              <div class="text-primary" id="colorMud"><i class="devicon-git-plain colored iconDev"></i>
+                <p class="font-weight-bold">Git</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4">
+          <div class="card mb-2">
+            <div class="card-body py-5" data-aos="zoom-in" data-aos-duration="9000">
+              <div class="text-primary" id="colorMud"><i class="devicon-sass-original colored iconDev"></i>
+                <p class="font-weight-bold">Sass</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>-->
+
+
+    </div>
+  </div>
+</div>
+
+<div class="da-section fondoGris" id="gallery">
+    <div class="h3 pb-5 text-center" data-aos="fade-up">Algunos trabajos...</div>
+    <div class="card-columns container">
+      <div class="card"><img class="img-fluid" src="images/albert01.jpg" alt="Gallery Image 2"/>
+        <div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>latelier d Albert</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/Alma02.jpg" alt="Gallery Image 5"/><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Alma de Jazmin</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/541103.jpg" alt="Gallery Image 3"/>
+        <div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Estudio 5411</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/ainoko03.jpg" alt="Gallery Image 6"/><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span><br> Ainoko</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/pudu01.jpg" alt="Gallery Image 1"/><!--</a>--><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Pudu</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/pudu03.jpg" alt="Gallery Image 3"/>
+        <div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Pudu</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/verygut02.jpg" alt="Gallery Image 5"/><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Verygut estudio</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/vicky02.jpg" alt="Gallery Image 1"/><!--</a>--><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Vicky Victoria</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/mingrone02.jpg" alt="Gallery Image 4"/>
+        <div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span> <br>Mingrone</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/espaciocuatro03.jpg" alt="Gallery Image 6"/><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span><br> Espacio4 Arquitectura</p>
+      </div></div>
+      <div class="card"><img class="img-fluid" src="images/escuela02.jpg" alt="Gallery Image 5"/><div class="card-body">
+        <p class="card-text"><span class="textoSalmon">Website</span><br> Asoc. Ecónomas Gastrónomas Arg.</p>
+      </div></div>
+    </div>
+</div>
+
+<!--
+<div class=" da-gallery" id="gallery">
+  <div class="h3 pb-5 text-center" data-aos="fade-up">Porfolio</div>
+  <div class="card-columns container">
+    <div class="card"><a href="images/albert00.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/albert00.jpg" alt="Gallery Image 1"/></a></div>
+    <div class="card"><a href="images/Alma02.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/Alma02.jpg" alt="Gallery Image 2"/></a></div>
+    <div class="card"><a href="images/escuela02.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/escuela02.jpg" alt="Gallery Image 3"/></a></div>
+    <div class="card"><a href="images/541101.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/541101.jpg" alt="Gallery Image 4"/></a></div>
+    <div class="card"><a href="images/vicky03.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/vicky03.jpg" alt="Gallery Image 5"/></a></div>
+    <div class="card"><a href="images/pudu03.jpg" data-toggle="lightbox" data-gallery="da-gallery"><img class="img-fluid" src="images/pudu03.jpg" alt="Gallery Image 6"/></a></div>
+  </div>
+</div>
+
+<div class="da-section">
+  <div class="container da-company-brand py-5">
+    <div class="h3 pb-3 text-uppercase text-center" data-aos="fade-up">Featured in</div>
+    <p class="pb-3 text-center" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipiscing elit primis rutrum, <br/>nullam tempor malesuada laoreet tempus</p>
+    <div class="row">
+      <div class="col-md-3 text-center"><img class="img-fluid" src="images/company-1.jpg" alt="Company Image 1"/></div>
+      <div class="col-md-3 text-center"><img class="img-fluid" src="images/company-2.jpg" alt="Company Image 2"/></div>
+      <div class="col-md-3 text-center"><img class="img-fluid" src="images/company-3.jpg" alt="Company Image 3"/></div>
+      <div class="col-md-3 text-center"><img class="img-fluid" src="images/company-4.jpg" alt="Company Image 4"/></div>
+    </div>
+  </div>
+</div>
+<div class="da-section da-brand bg-secondary">
+  <div class="container text-center text-white">
+    <div class="carousel slide pb-5" id="da-brand-carouselIndicator" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#da-brand-carouselIndicator" data-slide-to="0"></li>
+        <li data-target="#da-brand-carouselIndicator" data-slide-to="1"></li>
+        <li data-target="#da-brand-carouselIndicator" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p>"Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat tellus sociosqu ornare, morbi risus urna tincidunt mus curabitur vel non massa natoque. Pretium tristique eget nulla sem condimentum ligula eu ultrices convallis, ridiculus nibh bibendum posuere consequat tempus blandit donec."</p>
+              <div class="h6 text-uppercase">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p>"Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat tellus sociosqu ornare, morbi risus urna tincidunt mus curabitur vel non massa natoque. Pretium tristique eget nulla sem condimentum ligula eu ultrices convallis, ridiculus nibh bibendum posuere consequat tempus blandit donec."</p>
+              <div class="h6 text-uppercase">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p>"Lorem ipsum dolor sit amet consectetur adipiscing elit feugiat tellus sociosqu ornare, morbi risus urna tincidunt mus curabitur vel non massa natoque. Pretium tristique eget nulla sem condimentum ligula eu ultrices convallis, ridiculus nibh bibendum posuere consequat tempus blandit donec."</p>
+              <div class="h6 text-uppercase">Lorem Ipsum</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+<div class="da-section" id="contact">
+  <div class="da-contact-detail" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="container">
+      <div class="card py-4 px-4 fondoRosa">
+        <!--<div class="h4 pb-4">Contacto</div>-->
+        <div class="row">
+          <!--<div class="col-md-7 col-sm-12 mb-3">
+            <div class="da-contact-message">
+              <form action="https://formspree.io/marcelaueno@gmail.com" method="POST">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 mb-3">
+                    <input class="mr-3 form-control" type="text" name="first-name" placeholder="nombre" required="required"/>
+                  </div>
+                  <div class="col-md-6 col-sm-12 mb-3">
+                    <input class="form-control" type="text" name="last-name" placeholder="apellido"/>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <input class="form-control" type="text" name="Subject" placeholder="*Subject" required="required"/>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <input class="form-control" type="email" name="_replyto" placeholder="email" required="required"/>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <textarea class="form-control" name="message" placeholder="escribime un mensaje" rows="4" required="required"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>-->
+          <div class="col-md-3">
+            <div class="card d-block mb-3"><img class="card-img-top" src="images/yo03.jpg" alt="image"/>
+              <!--<div class="card-body text-center">
+                <div class="h5">Pamela Lopez</div>
+                <p class="text-muted">CEO</p>
+              </div>-->
+            </div>
+          </div>
+
+          <div class="col-md-5">
+            <!--<p>Info</p>
+            <p><b>Whatsapp</b> +54 11 3586 7606</p>
+            <p><b>Email</b> marcelaueno@gmail.com</p>-->
+            <ul id="linkSeguido">
+              <!--<li class="mb-1"><a class="da-social-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="ml-2">Twitter</span></a></li>-->
+              <!--<li class="mb-1"><i class="fab fa-whatsapp"></i><span class="ml-2"> +54 11 3586 7606</span></li>-->
+              <li class="mb-1"><a class="da-social-link" href="mailto:marcelaueno@gmail.com"  target="_blank"><i class="fas fa-envelope iconoRedes"></i><span class="ml-2">marcelaueno@gmail.com</span></a></li><br>
+              <li class="mb-1"><a class="da-social-link" href="https://www.linkedin.com/in/marcela-ueno-281b8614/" target="_blank"><i class="fab fa-linkedin-in iconoRedes" aria-hidden="true"></i><span class="ml-2">Linkedin</span></a></li><br>
+              <li class="mb-1"><a class="da-social-link" href="https://github.com/marcelaueno"  target="_blank"><i class="fab fa-github iconoRedes" aria-hidden="true"></i><span class="ml-2">Github</span></a></li><br>
+              <li class="mb-1"><a class="da-social-link" href="https://www.behance.net/marcelaueno"  target="_blank"><i class="fab fa-behance iconoRedes" aria-hidden="true"></i><span class="ml-2">Behance</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+
+    <footer class="bg-secondary da-section">
+      <div class="container textGrey">
+        <div class="row">
+          <!--<div style="background-color: #68C687;">oooooo</div>
+          <div style="background-color: #31FFF3;">oooooo</div>
+          <div style="background-color: #FFBB8A;">oooooo</div>
+          <div style="background-color: #FF383B;">oooooo</div>
+          <div style="background-color: #FFD1B3;">oooooo</div>-->
+          <!--<div class="col-md-5">
+            <div class="h2 mb-4">MUD</div>
+            <p class="mb-3">marcelaueno@gmail.com</p>
+            <p>+54 11 3586 7606</p>
+          </div>
+          <div class="col-md-4">
+            <div class="h6 pb-2">Seguime</div>
+            <ul>
+              <li class="mb-1"><a class="da-social-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="ml-2">Twitter</span></a></li>
+              <li class="mb-1"><a class="da-social-link" href="https://www.linkedin.com/in/marcela-ueno-281b8614/"  target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="ml-2">Linkedin</span></a></li>
+              <li class="mb-1"><a class="da-social-link" href="https://github.com/marcelaueno"  target="_blank"><i class="fab fa-github" aria-hidden="true"></i><span class="ml-2">Github</span></a></li>
+              <li class="mb-1"><a class="da-social-link" href="https://www.behance.net/marcelaueno"  target="_blank"><i class="fab fa-behance" aria-hidden="true"></i><span class="ml-2">Behance</span></a></li>
+            </ul>
+          </div>-->
+          <div class="col-md-3" >
+            <div class="h6 pb-4"><strong>&copy; MUD. All rights reserved.</strong></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="scrolltop">
+      <button class="btn btn-primary" ><span class="icon"><i class="fas fa-angle-up fa-2x"></i></span></button>
+    </div>
+    <script src="scripts/jquery.min.js?ver=1.2.0"></script>
+    <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="scripts/aos.js?ver=1.2.0"></script>
+    <script src="scripts/ekko-lightbox.min.js?ver=1.2.0"></script>
+    <script src="scripts/main.js?ver=1.2.0"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.4.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.4.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+</html>
